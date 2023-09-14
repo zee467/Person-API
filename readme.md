@@ -42,7 +42,7 @@ To set up your development environment and get started with this API, follow the
   ```
   * The API will start running on http://localhost:5000.
 
-* How to Use the API
+> ### How to Use the API
 The API provides the following endpoints:
 
 * Read person (GET)
