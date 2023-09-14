@@ -11,26 +11,26 @@ To set up your development environment and get started with this API, follow the
 
 > ### Installation
 1. Clone this repository to your local machine.
-   ```
-    git clone https://github.com/zee467/Person-API.git
+   ```python
+     git clone https://github.com/zee467/Person-API.git
    ```
 2. Navigate to the project folder using the command line.
-   ```
-   cd Person-API
+   ```python
+     cd Person-API
    ```
 3. Create a virtual environment (optional but recommended) and activate it:
    ```bash
-   * On mac
-     * Create virtual environment: python3 -m venv venv
-     * Activate virtual environment: source myenv/bin/activate
-   
-   * On windows
-     * Create virtual environment: python3 -m venv venv
-     * Activate virtual environment: venv\Scripts\activate
+      * On mac
+        * Create virtual environment: python3 -m venv venv
+        * Activate virtual environment: source myenv/bin/activate
+      
+      * On windows
+        * Create virtual environment: python3 -m venv venv
+        * Activate virtual environment: venv\Scripts\activate
     ```
   
  4. Install the required dependencies using pip:
-    ```
+    ```bash
      pip install -r requirements.txt
     ```
  
