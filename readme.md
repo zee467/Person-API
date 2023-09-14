@@ -45,23 +45,23 @@ To set up your development environment and get started with this API, follow the
 * How to Use the API
 The API provides the following endpoints:
 
-* [x] Read person (GET)
+* Read person (GET)
    * Endpoint: /api/persons
    * Send a GET request to retrieve all records from the database.
 
-* [x] Create a person (POST)
+* Create a person (POST)
    * Endpoint: /api/persons
    * Send a POST request with JSON data to create a new record.
 
-* [x] Read a specific person details (GET)
+* Read a specific person details (GET)
    * Endpoint: /api/persons/<id>
    * Send a GET request to retrieve a specific person record by ID from the database.
 
-* [x] Update a person (PUT)
+* Update a person (PUT)
    * Endpoint: /api/persons/<id>
    * Send a PUT request with JSON data to update a specific person by ID.
 
-* [x] Delete a person (DELETE)
+* Delete a person (DELETE)
    * Endpoint: /api/persons/<id>
    * Send a DELETE request to remove a specific record by ID.
 
