@@ -21,12 +21,12 @@ To set up your development environment and get started with this API, follow the
 3. Create a virtual environment (optional but recommended) and activate it:
    ```bash
       * On mac
-        * Create virtual environment: python3 -m venv venv
+        * Create virtual environment: python3 -m venv myenv
         * Activate virtual environment: source myenv/bin/activate
       
       * On windows
-        * Create virtual environment: python3 -m venv venv
-        * Activate virtual environment: venv\Scripts\activate
+        * Create virtual environment: python3 -m venv myenv
+        * Activate virtual environment: myenv\Scripts\activate
     ```
   
  4. Install the required dependencies using pip:
@@ -35,7 +35,7 @@ To set up your development environment and get started with this API, follow the
     ```
  
 
-Running the API
+> ### Running the API
 To run the API locally, use any of the following commands:
 python app.py or flask run(use this when your project folder has a Flask env file with configuration variables.)
 
