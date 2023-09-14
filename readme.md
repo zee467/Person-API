@@ -37,7 +37,9 @@ To set up your development environment and get started with this API, follow the
 
 > ### Running the API
 To run the API locally, use any of the following commands:
-python app.py or flask run(use this when your project folder has a Flask env file with configuration variables.)
+  ```bash
+    python app.py or flask run(use this when your project folder has a Flask env file with configuration variables.)
+ ```
 
 The API will start running on http://localhost:5000.
 
