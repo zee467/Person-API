@@ -36,36 +36,35 @@ To set up your development environment and get started with this API, follow the
  
 
 > ### Running the API
-To run the API locally, use any of the following commands:
-  ```bash
-    python app.py or flask run(use this when your project folder has a Flask env file with configuration variables.)
- ```
+* To run the API locally, use any of the following commands:
+   ```bash
+     python app.py or flask run(use this when your project folder has a Flask env file with configuration variables.)
+  ```
+  * The API will start running on http://localhost:5000.
 
-The API will start running on http://localhost:5000.
-
-How to Use the API
+* How to Use the API
 The API provides the following endpoints:
 
-Read person (GET)
-Endpoint: /api/persons
-Send a GET request to retrieve all records from the database.
+* [x] Read person (GET)
+   * Endpoint: /api/persons
+   * Send a GET request to retrieve all records from the database.
 
-Create a person (POST)
-Endpoint: /api/persons
-Send a POST request with JSON data to create a new record.
+* [x] Create a person (POST)
+   * Endpoint: /api/persons
+   * Send a POST request with JSON data to create a new record.
 
-Read a specific person details (GET)
-Endpoint: /api/persons/<id>
-Send a GET request to retrieve a specific person record by ID from the database.
+* [x] Read a specific person details (GET)
+   * Endpoint: /api/persons/<id>
+   * Send a GET request to retrieve a specific person record by ID from the database.
 
-Update a person (PUT)
-Endpoint: /api/persons/<id>
-Send a PUT request with JSON data to update a specific person by ID.
+* [x] Update a person (PUT)
+   * Endpoint: /api/persons/<id>
+   * Send a PUT request with JSON data to update a specific person by ID.
 
-Delete a person (DELETE)
-Endpoint: /api/persons/<id>
-Send a DELETE request to remove a specific record by ID.
+* [x] Delete a person (DELETE)
+   * Endpoint: /api/persons/<id>
+   * Send a DELETE request to remove a specific record by ID.
 
-For more detailed information on how to use each endpoint, check the API documentation file.
+For more detailed information on how to use each endpoint, check the [API documentation file](https://documenter.getpostman.com/view/21619702/2s9YC5xBs5).
 
 
