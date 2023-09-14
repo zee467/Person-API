@@ -114,7 +114,6 @@ This API allows you to perform CRUD (Create, Read, Update, Delete) operations on
   curl --location --request DELETE 'https://hngpersonapi-cw36.onrender.com/api/persons/4'
 ```
 
-Response:
 **Example Response:**
 ```bash
   Status: 204 NO CONTENT
