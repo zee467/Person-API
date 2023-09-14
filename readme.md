@@ -54,15 +54,15 @@ The API provides the following endpoints:
    * Send a POST request with JSON data to create a new record.
 
 * Read a specific person details (GET)
-   * Endpoint: /api/persons/<id>
+   * Endpoint: /api/persons/<string:id>
    * Send a GET request to retrieve a specific person record by ID from the database.
 
 * Update a person (PUT)
-   * Endpoint: /api/persons/<id>
+   * Endpoint: /api/persons/<string:id>
    * Send a PUT request with JSON data to update a specific person by ID.
 
 * Delete a person (DELETE)
-   * Endpoint: /api/persons/<id>
+   * Endpoint: /api/persons/<string:id>
    * Send a DELETE request to remove a specific record by ID.
 
 For more detailed information on how to use each endpoint, check the [API documentation file](https://documenter.getpostman.com/view/21619702/2s9YC5xBs5).
