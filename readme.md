@@ -1,4 +1,4 @@
-# My Python Flask API
+# HNG-X-2 Flask API
 
 ## Introduction
 This is an API created with python flask, using the flask run command. This API lets you perform CRUD (create, read, update, delete) operations on a database. 
@@ -21,6 +21,8 @@ source venv/bin/activate
 
 Install the required dependencies using pip:
 pip install -r requirements.txt
+
+```
 
 Running the API
 To run the API locally, use any of the following commands:
