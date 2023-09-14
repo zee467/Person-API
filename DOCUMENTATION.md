@@ -117,5 +117,5 @@ This API allows you to perform CRUD (Create, Read, Update, Delete) operations on
 Response:
 **Example Response:**
 ```bash
-``Status: 204 NO CONTENT
+  Status: 204 NO CONTENT
 ```
