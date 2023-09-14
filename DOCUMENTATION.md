@@ -2,17 +2,18 @@
 
 This API allows you to perform CRUD (Create, Read, Update, Delete) operations on persons in a database.
 
-#### GET List Persons
+* GET List Persons
 > Lists all the persons in the database.
 
-**Request:**
-```bash
+**Example Request:**
+```curl
   curl --location 'https://hngpersonapi-cw36.onrender.com/api/persons'
-  Response:
+```
+**Example Response:**
+```
+  Status: [200](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/200) OK
   
-  Status: 200 OK
-  json
-  Copy code
+  Body: json
   {
     "people": [
       {
@@ -25,7 +26,7 @@ This API allows you to perform CRUD (Create, Read, Update, Delete) operations on
   }
 ```
 
-####POST New Person
+* POST New Person
 > Add a new person to the database.
 
 **Request:**
