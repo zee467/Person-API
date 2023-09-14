@@ -58,7 +58,7 @@ This API allows you to perform CRUD (Create, Read, Update, Delete) operations on
 
 **Example Request:**
 ```bash
-  curl --location 'https://hngpersonapi-cw36.onrender.com/api/persons/3'
+  curl --location 'https://hngpersonapi-cw36.onrender.com/api/persons/<id>'
 ```
 
 **Example Response:**
@@ -82,7 +82,7 @@ This API allows you to perform CRUD (Create, Read, Update, Delete) operations on
 
 **Example Request:**
 ```bash
-  curl --location --request PUT 'https://hngpersonapi-cw36.onrender.com/api/persons/4'
+  curl --location --request PUT 'https://hngpersonapi-cw36.onrender.com/api/persons/<id>'
   --header 'Content-Type: application/json'
   --data-raw '{
             "age": 23,
@@ -111,7 +111,7 @@ This API allows you to perform CRUD (Create, Read, Update, Delete) operations on
 
 **Example Request:**
 ```bash
-  curl --location --request DELETE 'https://hngpersonapi-cw36.onrender.com/api/persons/4'
+  curl --location --request DELETE 'https://hngpersonapi-cw36.onrender.com/api/persons/<id>'
 ```
 
 **Example Response:**
